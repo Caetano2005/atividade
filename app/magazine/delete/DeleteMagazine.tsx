@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useSearchParams, useRouter } from "next/navigation";
 
 export default function DeleteMagazine() {
-    const id = useSearchParams().get("id");
+    const id = useSearchParams().get("_id");
     const router = useRouter();
 
         async function handleDelete() {

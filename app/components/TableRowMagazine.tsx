@@ -6,7 +6,7 @@ export default function TableRowMagazine({magazine}:any){
           <td className="px-4 py-2">{magazine.paginas}</td>
           <td className="px-4 py-2">
             <a
-              href={`/magazine/delete?id=${magazine.id}`}
+              href={`/magazine/delete?_id=${magazine._id}`}
               className="text-destructive hover:underline"
             >
               Deletar
