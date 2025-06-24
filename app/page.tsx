@@ -11,7 +11,7 @@ export default function Home() {
       Explore as funcionalidades abaixo e aproveite sua experiência! 🚀🎓
     </p>
     <a
-      href="/university"
+      href="/magazine"
       style={{
         display: 'inline-block',
         margin: '0.5rem',
@@ -25,10 +25,10 @@ export default function Home() {
         transition: 'background 0.2s',
       }}
     >
-      📋 Listar Universidades
+      📋 Listar Revistas
     </a>
     <a
-      href="/university/new"
+      href="/magazine/new"
       style={{
         display: 'inline-block',
         margin: '0.5rem',
@@ -42,7 +42,7 @@ export default function Home() {
         transition: 'background 0.2s',
       }}
     >
-      🏫 Cadastrar Universidade
+      🏫 Cadastrar Revistas
     </a>
     <style>
       {`

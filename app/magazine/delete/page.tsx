@@ -1,11 +1,11 @@
-import DeleteUniversity from "./DeleteUniversity";
 import { Suspense } from "react";
+import DeleteMagazine from "./DeleteMagazine";
     
 export default function Page() {
 
         return (
             <Suspense>
-                <DeleteUniversity />
+                <DeleteMagazine />
             </Suspense>
            
         );

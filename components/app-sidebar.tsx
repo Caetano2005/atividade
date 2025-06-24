@@ -52,18 +52,18 @@ const data = {
   ],
   navMain: [
     {
-      title: "Universidades",
+      title: "Revistas",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
       items: [
         {
           title: "Cadastrar",
-          url: "/university/new",
+          url: "/magazine/new",
         },
         {
           title: "Listar",
-          url: "/university",
+          url: "/magazine",
         },
         {
           title: "Settings",
